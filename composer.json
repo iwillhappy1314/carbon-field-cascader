@@ -1,0 +1,20 @@
+{
+    "name": "htmlburger/carbon-field-chained",
+    "description": "Carbon Fields extension, that adds a chained field type.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-chained"],
+    "homepage": "http://www.wpzhiku.com",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [],
+    "require": {
+        "htmlburger/carbon-fields": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "field.php"
+        ],
+        "psr-4": {
+            "Carbon_Field_Chained\\": "core/"
+        }
+    }
+}
